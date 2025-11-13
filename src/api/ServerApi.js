@@ -855,7 +855,7 @@
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link module:model/CreateServerResponse} and HTTP response
      */
     this.modifyServerWithHttpInfo = function(serverId, server) {
-      opts = opts || {};
+      // opts = opts || {};
       var postBody = server;
 
       // verify the required parameter 'serverId' is set
